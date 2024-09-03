@@ -106,8 +106,8 @@ async def batch_link(_, message):
                         url = f"{result}/{i}"
                         link = get_link(url)
                         await get_msg(userbot, user_id, msg.id, link, 0, message)
-                        sleep_msg = await app.send_message(message.chat.id, "Sleeping for 10 seconds to avoid flood...")
-                        await asyncio.sleep(8)
+                        sleep_msg = await app.send_message(message.chat.id, "Sleeping for 15 seconds to avoid flood...")
+                        await asyncio.sleep(13)
                         await sleep_msg.delete()
                         await asyncio.sleep(2)                                                
                     except Exception as e:
