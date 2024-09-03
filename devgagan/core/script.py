@@ -9,7 +9,7 @@ Hi, welcome to Advance Content Saver Bot, designed to save restricted messages f
 FORCE_MSG = """
 Hey {},
 
-According to my database, you've not joined the updates channel yet. If you want to use me, then join the updates channel and start me again!
+According to my database, you've not joined the updates channel yet. If you want to use me, then join the updates channel link given in DISCRIPTION and start me again!
 """
 
 HELP_TXT = """
