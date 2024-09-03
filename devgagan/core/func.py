@@ -39,7 +39,7 @@ async def subscribe(app, message):
             await message.reply_text("Sorry Sir, You are Banned. Contact -- @devggn")
             return 1
       except UserNotParticipant:
-         await message.reply_photo(photo="https://graph.org/Rizz-Education-08-30.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
+         await message.reply_photo(photo="https://graph.org/Rizz-Education-08-30.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"https://t.me/rixxwillfix")]]))
          return 1
       except Exception:
          await message.reply_text("Something Went Wrong. Contact us @RD_C4...")
@@ -109,8 +109,8 @@ async def progress_bar(current, total, ud_type, message, start):
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
         progress = "{0}{1}".format(
-            ''.join(["🟢" for i in range(math.floor(percentage / 10))]),
-            ''.join(["🔴" for i in range(10 - math.floor(percentage / 10))]))
+            ''.join(["██" for i in range(math.floor(percentage / 10))]),
+            ''.join(["░░" for i in range(10 - math.floor(percentage / 10))]))
             
         tmp = progress + PROGRESS_BAR.format( 
             round(percentage, 2),
