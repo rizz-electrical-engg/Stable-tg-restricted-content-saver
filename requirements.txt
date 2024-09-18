@@ -9,3 +9,7 @@ flask
 telethon
 aiojobs
 werkzeug==2.2.2
+PyPDF2
+reportlab
+PyMuPDF
+cryptg
