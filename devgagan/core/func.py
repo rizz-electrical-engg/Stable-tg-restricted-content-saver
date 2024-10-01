@@ -84,12 +84,12 @@ async def get_seconds(time_string):
 
 
 
-PROGRESS_BAR = """\n
+PROGRESS_BAR = """<blockquote>\n
 **__Completed__** : {1}/{2}
 **__Bytes__** : {0}%
 **__Speed__** : {3}/s
 **__Time__** : {4}\n\n
-**__Powered by [⏤͟͞𝙍𝙞𝙯𝙯🍀](https://t.me/ContactM_ebot)__**
+**__Powered by [⏤͟͞𝙍𝙞𝙯𝙯🍀](https://t.me/ContactM_ebot)__**</blockquote>
 """
 
 
