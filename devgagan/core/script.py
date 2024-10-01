@@ -3,17 +3,17 @@
 # ------------------------------------------------------------ #
 
 START_TXT = """
-Hi, welcome to Advance Content Saver Bot, designed to save restricted messages from public/private channels and private groups. First login in bot by /login then send post link.
+<blockquote>Hi, welcome to Advance Content Saver Bot, designed to save restricted messages from public/private channels and private groups. First login in bot by /login then send post link.</blockquote>
 """
 
 FORCE_MSG = """
-Hey {},
+<blockquote>Hey {},
 
-According to my database, you've not joined the updates channel yet. If you want to use me, then join the updates channel link given in DISCRIPTION and start me again!
+According to my database, you've not joined the updates channel yet. If you want to use me, then join the updates channel link given in DISCRIPTION and start me again!</blockquote>
 """
 
 HELP_TXT = """
-HELP SECTION 📝
+<blockquote>HELP SECTION 📝
 
 🛠️ /settings - Open settings to set your requirements.
 
@@ -21,7 +21,7 @@ HELP SECTION 📝
 
 📦 /batch - Download bulk links in a systematic way.
 
-⛔ /cancel - Stop batch processing.
+⛔ /cancel - Stop batch processing.</blockquote>
 """
 
 HELP2_TXT = """
@@ -63,7 +63,7 @@ ADMINS PANEL 🛠️
 """
 
 SETTINGS_TXT = """
-Welcome to the settings section. Here, you can choose button: caption or session and thumbnail.
+<blockquote>Welcome to the settings section. Here, you can choose button: caption or session and thumbnail.</blockquote>
 """
 
 CAPTI0NS_TXT = """
