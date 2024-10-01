@@ -9,8 +9,8 @@ from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardBu
 
 buttons = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton("Join Channel", url="https://t.me/+xItYyMB4-ZBjMTc1")],
-        [InlineKeyboardButton("Buy Premium AH", url="https://t.me/RD_C4")]
+        [InlineKeyboardButton("Join Channel", url="https://t.me/aboutRizzx")],
+        [InlineKeyboardButton("Buy Premium AH", url="https://t.me/ContactM_ebot")]
     ]
 )
 
@@ -19,6 +19,6 @@ async def start(_, message):
     join = await subscribe(_, message)
     if join == 1:
         return
-    await message.reply_photo(photo="https://graph.org/file/9910539aa815c26cac1f2.jpg",
+    await message.reply_photo(photo="https://envs.sh/PvC.jpg",
                               caption=script.START_TXT.format(message.from_user.mention), 
                               reply_markup=buttons)
