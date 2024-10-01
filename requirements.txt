@@ -1,4 +1,4 @@
-git+https://github.com/KurimuzonAkuma/pyrogram
+https://github.com/KurimuzonAkuma/pyrogram/archive/refs/heads/dev.zip
 tgcrypto
 pyromod
 opencv-python-headless
